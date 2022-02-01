@@ -51,7 +51,6 @@ app.post('/', (req, res) => {
 
     res.locals.name = name;
     res.render("hello.njk");
-
 })
 
 /**

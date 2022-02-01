@@ -3,14 +3,21 @@
     {# Put page content here. Exmaples below #}
     <div class="card">
         <div class="card-header">
-            <label for="name">Name</label>
-
+            <h2>Advice</h1>
         </div>
         <div class="card-body">
-
-            <form action="/" method="POST">
-                <div class="form-group">
-                    <input type="text" class="form-control" id="name" name="name" aria-describedby="nameHelp" placeholder="Enter name">
+            All of this UI code is to demonstrate nunjucks and express js. Feel free to delete this as its not needed for the final solution. 
+        </div>
+    </div>
+</br>
+<div class="card">
+    <div class="card-header">
+        <label for="name"><h2>Example Form</h1></label>
+    </div>
+    <div class="card-body">
+        <form action="/" method="POST">
+            <div class="form-group">
+                <input type="text" class="form-control" id="name" name="name" aria-describedby="nameHelp" placeholder="Enter name">
                     <small id="nameHelp" class="form-text text-muted">Enter your name and continue</small>
                 </div>
                 <button class="btn btn-success" type="submit">Continue</button>
@@ -20,8 +27,8 @@
 </br>
 <div class="card">
     <div class="card-header">
-            Health Check
-        </div>
+        <h2>Health Check<h2>
+    </div>
     <div class="card-body">
         <table class="table">
             <thead>
@@ -34,11 +41,9 @@
                 <tr>
                     <th scope="row">Backend</th>
                     <td>
-                        {{backendStatus}}</td>
+                        {{ backendStatus }}</td>
                 </tr>
             </tbody>
         </table>
     </div>
-</div>
-
-{% endblock %}
+</div>{% endblock %}
