@@ -1,9 +1,18 @@
 # Invent BT Full Stack Technical Test
 
 ## Getting Started
-- Node 16 - ExpressJs with Nunjucks
-> To start the frontend ensure you are in the `/frontend` and run `npm run dev` the service will start on http://localhost:8000
+### Frontend
 
+#### Option 1 = ExpressJs with Nunjucks (Node 16)
+> To start the frontend ensure you are in the `/frontend/nunjucks` and run `npm run dev` the service will start on http://localhost:8000
+
+
+#### Option 2 = React JS with Bootstrap (Node 16)
+> To start the frontend ensure you are in the `/frontend/react` and run `npm start` the service will start on http://localhost:3000
+
+
+
+### Backend
 - Java 11 - with Spring Boot 2.6.2
 > To start the backend ensure you are in the `/backend` and run `mvn spring-boot:run` the service will start on http://localhost:8080
 
