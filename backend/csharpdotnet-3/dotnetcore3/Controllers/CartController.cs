@@ -10,7 +10,6 @@ namespace dotnetcore3.Controllers
 {
     [ApiController]
     [Produces("application/json")]
-    [Route("[controller]")]
     public class CartController : ControllerBase
     {
         private readonly ICartService _cartService;
@@ -20,7 +19,7 @@ namespace dotnetcore3.Controllers
             _cartService = cartService;
         }
 
-        [Route("Items")]
+        [Route("items")]
         [HttpGet]
         public ActionResult<ItemsResponse> GetShopItems()
         {
@@ -34,23 +33,9 @@ namespace dotnetcore3.Controllers
             );
         }
 
-        [Route("Add")]
-        [HttpPost]
-        public ActionResult<double> AddItemsToShoppingCart(string[] items)
-        {
-            throw new NotImplementedException();
-        }
-
-        [Route("Total")]
+        [Route("total")]
         [HttpGet]
-        public ActionResult<double> GetTotalPrice()
-        {
-            throw new NotImplementedException();
-        }
-
-        [Route("Remove")]
-        [HttpDelete]
-        public ActionResult<double> RemoveItemFromShoppingCart(string[] items)
+        public ActionResult<double> GetTotalPrice(string[] items)
         {
             throw new NotImplementedException();
         }
