@@ -34,8 +34,8 @@ namespace dotnetcore3.Controllers
         }
 
         [Route("total")]
-        [HttpGet]
-        public ActionResult<double> GetTotalPrice(string[] items)
+        [HttpPost]
+        public ActionResult<double> TotalPrice(string[] items)
         {
             throw new NotImplementedException();
         }
