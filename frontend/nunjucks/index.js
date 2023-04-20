@@ -7,7 +7,6 @@ const express = require("express");
 const path = require("path");
 const nunjucks = require("nunjucks");
 const bodyParser = require('body-parser')
-const axios = require('axios');
 
 /**
  * App Variables
@@ -31,19 +30,7 @@ nunjucks.configure(path.join(__dirname, "views"), {
  * Routes Definitions
  */
 app.get("/", async (req, res) => {
-
-    //TODO Put in status 
-
-    axios.get('http://localhost:8080/actuator/health').then(response => {
-        res.locals.backendStatus = "👍";
-        res.render("index.njk");
-
-    }).catch(function (error) {
-        res.locals.backendStatus = "🔥";
-        res.render("index.njk");
-
-
-    });
+    res.render("index.njk");
 });
 app.post('/', (req, res) => {
     console.log(req.body)
