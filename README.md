@@ -32,7 +32,9 @@ For these examples the frontend does not connect to the backend and visa vera, t
 
 > To start the backend ensure you are in the `/backend/csharpdotnet-3/dotnetcore3` or `/backend/csharpdotnet-6/dotnet6` and run `dotnet run` the service will start on [http://localhost:5050](http://localhost:5050)
 
-## Tasks
+## Task
+
+### Scenario: Shopping cart
 
 Allow one hour to complete as much as possible.
 Please work as you would normally do
@@ -40,8 +42,6 @@ Please work as you would normally do
 > Advice: We would rather you did it properly and completed less than completed it all with poor quality or attention to details. We are looking for your best work.
 >
 > Things to consider: code quality, unit tests, extensibility, maintainability, etc.
-
-### Scenario: Shopping cart
 
 - You are building a checkout system for a shop which only sells apples and oranges.
 
