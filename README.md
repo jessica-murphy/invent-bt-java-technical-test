@@ -6,25 +6,25 @@ For these examples the frontend does not connect to the backend and visa vera, t
 
 ### Frontend
 
-#### Option 1 = ExpressJS with Nunjucks (Node 16)
+#### Option 1 = ExpressJS with Nunjucks - (Node 18 - see .nvmrc)
 
 > To start the frontend ensure you are in the `/frontend/nunjucks` and run `npm run dev` the service will start on [http://localhost:8000](http://localhost:8000)
 
-#### Option 2 = React (Typescript) with Bootstrap (Node 16)
+#### Option 2 = React (Typescript) with Bootstrap - (Node 18 - see .nvmrc)
 
 > To start the frontend ensure you are in the `/frontend/react-typescript` and run `npm start` the service will start on [http://localhost:3000](http://localhost:3000)
 
-#### Option 3 = React (Javascript) with Bootstrap (Node 16)
+#### Option 3 = React (Javascript) with Bootstrap - (Node 18 - see .nvmrc)
 
 > To start the frontend ensure you are in the `/frontend/react-javascript` and run `npm start` the service will start on [http://localhost:3000](http://localhost:3000)
 
 ### Backend
 
-- Java 11 - with Spring Boot 2.6.6
+- Java 11 - with Spring Boot 2.7.11
 
 > To start the backend ensure you are in the `/backend/java` and run `mvn spring-boot:run` the service will start on [http://localhost:8080](http://localhost:8080)
 
-- Typescript
+- Typescript - (Node 18 - see .nvmrc)
 
 > To start the backend ensure you are in the `/backend/typescript` and run `npm run build` and `npm start` the service will start on [http://localhost:3010](http://localhost:3010)
 
