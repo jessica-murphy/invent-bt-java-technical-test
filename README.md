@@ -28,7 +28,7 @@ Please work as you would normally do
 #### Backend Requirements
 
 - Build a checkout system which takes a list of items scanned at the till and outputs the total cost. See /total endpoint
-- For example: [ Apple, Apple, Orange, Apple ] => £2.05
+- For example: [ Apple, Apple, Orange, Apple ] => 2.05
 - Make reasonable assumptions about the inputs to your solution; for example, many candidates take a list of strings as input
 
 > Think about edge cases and how you would handle them e.g. empty list, null, invalid items, etc.
