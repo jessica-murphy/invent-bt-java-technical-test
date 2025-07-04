@@ -2,7 +2,9 @@
 
 ## Getting Started
 
-For this example there is only a backend, so you do not need to worry about making it work with a frontend.
+For this example there is only a backend, so you do not need to worry about making it work with a frontend. 
+
+You may use Google but you may not use Gen AI to assist.
 
 ### Backend
 
