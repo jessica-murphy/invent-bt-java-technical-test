@@ -8,7 +8,7 @@ You may use Google but you may not use Gen AI to assist.
 
 ### Backend
 
-Java 11 - with Spring Boot 2.7.11
+Java 17 - with Spring Boot 3.5.3
 
 > To start the backend ensure you are in the `/backend/java` and run `mvn spring-boot:run` the service will start on [http://localhost:8080](http://localhost:8080)
 
